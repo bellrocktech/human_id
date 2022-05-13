@@ -1,3 +1,8 @@
+Changed the word lists to be from https://github.com/RienNeVaPlus/human-id because some
+combinations from the original are not always nice
+
+---
+
 # Human ID ![test](https://github.com/orf/human_id/workflows/test/badge.svg) [![PyPI version](https://badge.fury.io/py/human-id.svg)](https://pypi.org/project/human-id)
 
 A simple library for generating human IDs like `look-dead-game-story` or `get-nice-office-side`. 
