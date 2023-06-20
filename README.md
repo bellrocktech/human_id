@@ -48,15 +48,11 @@ Options:
 
 ## Implementation
 
-This library contains 100 of the most common English nouns, adjectives and verbs, and will 
-generate a phrase containing several of each type, in the order `verb, adjective, noun`.
+This library contains many of the most common English nouns, adjectives and verbs, and will generate a phrase containing several of each type, in the order `adjective, noun, verb`.
 
-The most common words where chosen because they are typically shorter and simpler to read or type, 
-which is a key property of human readable IDs.
+The most common words where chosen because they are typically shorter and simpler to read or type, which is a key property of human readable IDs.
 
-By default the ID will contain 4 words, which means there are `300^4` possible IDs (8,100,000,000). If your 
-use case requires more IDs then you can up the number of words at the expense of the readability factor. To 
-have the same number of possible IDs as UUIDs you require 15 words:
+By default the ID will contain 4 words. If your use case requires more IDs then you can up the number of words at the expense of the readability factor. To have the same number of possible IDs as UUIDs you require 15 words:
 
 `may-hold-come-foreign-low-white-cold-team-point-study-others-home-service-body-child`
 
